@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 45 25% 97%;
+    --foreground: 220 20% 14%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 14%;
+    --border: 40 15% 88%;
+    --primary: 25 90% 48%;
+    --primary-foreground: 0 0% 100%;
+    --muted: 40 20% 93%;
+    --muted-foreground: 220 10% 46%;
+    --accent: 25 85% 95%;
+    --accent-foreground: 25 90% 40%;
+  }
+
+  .dark {
+    --background: 224 25% 8%;
+    --foreground: 220 15% 92%;
+    --card: 224 22% 11%;
+    --card-foreground: 220 15% 92%;
+    --border: 224 15% 18%;
+    --primary: 25 95% 55%;
+    --primary-foreground: 0 0% 100%;
+    --muted: 224 18% 15%;
+    --muted-foreground: 220 10% 60%;
+    --accent: 224 20% 16%;
+    --accent-foreground: 25 95% 65%;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+  }
+}
